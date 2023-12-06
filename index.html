@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do tempo</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/css_bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Biblioteca de ícones Bootstrap-->
+</head>
+
+<body class="fundo" id="fundoTela">
+    <div class="container1">
+        <section class="secao-top">
+            <span id="titulo-clima">Confira o clima de uma cidade:</span> <br>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Digite a cidade" id="inputCidade">
+                    <div class="input-group-append">
+                        <button class="btn btn-dark" type="button" id="botaoPesquisa"><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+        </section>
+        <div id="api-location">
+            <h2>
+                <span id="cidade"> </span>
+            </h2>
+            <h4 id="temperatura"><span></span></h4>
+                <div id="descricao">
+                    <img id="iconePrevisao" src="">
+                    <h4 id="descricaoClima"></h4>
+                </div>
+            <p>
+                <h4 id="umidade"></h4>
+            </p>
+    </div>
+<script src="/assets/js/main.js"></script>
+</body>
+</html>

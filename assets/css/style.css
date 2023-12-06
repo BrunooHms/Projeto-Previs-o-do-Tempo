@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+
+.fundo {
+    background-image: url('/assets/img/ceu-limpo.jpg');
+    background-size: 100%;
+}
+
+.container1 {
+    background: #070707ae;
+    width: 30%;
+    text-align: center;
+    padding: 10px 20px;
+    margin :auto;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .container1 {
+        background: #070707ac;
+        width: 80%;
+        text-align: center;
+        padding: 10px 20px;
+        margin :auto;
+        margin-top: 10%;
+        border-radius: 10px;
+    }
+}
+
+.secao-top {
+    padding: 10px;
+    border-bottom: 3px solid #e8ecee;
+    margin-bottom: 20px;
+}
+
+#titulo-clima {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#descricao {
+    display:inline-flex;
+    align-items: center;
+}
+
+#cidade ,#temperatura, #descricaoClima, #umidade{
+    color: rgb(243, 238, 238);
+}
+
+#marcador{
+    color: red;
+}
+
+.fundo-nublado {
+    background-image: url('/assets/img/nublado.jpg');
+    background-size: 100%;
+}
+
+.fundo-nuvens{
+    background-image: url('/assets/img/ceu-com-algumas-nuvens.jpg');
+     background-size: 100%;
+}
+
+.fundo-chuviscos-raios {
+    background-image: url('/assets/img/chuviscos-raios.jpg');
+    background-size: 100%;
+}
+
+.fundo-chuva-leve {
+    background-image: url('/assets/img/chuva-leve.jpg');
+    background-size: 100%;
+}
+
+.fundo-nevoa{
+    background-image: url(/assets/img/nevoa.jpg);
+    background-size: 100%;
+}
+
+.fundo-ceu-limpo {
+    background-image: url(/assets/img/ceu-limpo.jpg);
+    background-size: 100%;
+}
+.fundo-nuvens-dispersas {
+    background-image: url(/assets/img/nuvens-dispersas.jpg);
+    background-size: 100%;
+}
+.fundo-pouca-neve {
+    background-image: url(/assets/img/pouca-neve.jpg);
+    background-size: 100%;
+}
+
+.fundo-trovoadas {
+    background-image: url(/assets/img/trovoadas.jpg);
+    background-size: 100%;
+}
+
+@media screen and (max-width: 1000px){
+
+    .fundo {
+        background-image: url('/assets/img/ceu-limpo.jpg');
+        background-size: 290%;
+    }
+
+    .fundo-nublado {
+        background-image: url('/assets/img/nublado.jpg');
+        background-size: 400%;
+    } 
+
+    .fundo-nuvens{
+         background-image: url('/assets/img/ceu-com-algumas-nuvens.jpg');
+         background-size: 400%;
+    }
+
+    .fundo-chuviscos-raios {
+        background-image: url('/assets/img/chuviscos-raios.jpg');
+        background-size: 400%;
+    }
+
+    .fundo-chuva-leve {
+        background-image: url('/assets/img/chuva-leve.jpg');
+        background-size: 325%;
+    }
+
+    .fundo-nevoa{
+        background-image: url(/assets/img/nevoa.jpg);
+        background-size: 355%;
+    }
+    
+    .fundo-ceu-limpo {
+        background-image: url(/assets/img/ceu-limpo.jpg);
+        background-size: 290%;
+    }
+
+    .fundo-nuvens-dispersas {
+        background-image: url(/assets/img/nuvens-dispersas.jpg);
+        background-size: 350%;
+    }
+
+    .fundo-pouca-neve {
+        background-image: url(/assets/img/pouca-neve.jpg);
+        background-size: 300%;
+    }
+
+    .fundo-trovoadas {
+        background-image: url(/assets/img/trovoadas.jpg);
+        background-size: 180%;
+    }
+}
+
